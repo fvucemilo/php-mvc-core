@@ -1,0 +1,23 @@
+{
+    "name": "fvucemilo/php-mvc-core",
+    "description": "PHP MVC core library.",
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "fvucemilo\\phpmvc\\": "/src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Filip Vučemilović-Grgić",
+            "email": "filip.vucemilovic.grgic@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*"
+    }
+}
